@@ -1,4 +1,4 @@
-/// enter_eveodd which used check the number is even or odd
+/// enter_eveodd which used check the number is even 
 ///
 /// #Arguments
 ///
