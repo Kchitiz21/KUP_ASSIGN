@@ -18,7 +18,7 @@ pub fn enter_eveodd(num1: i32) -> Result<String, String> {
 ///
 /// #Arguments
 ///
-///num1:num1 is Integer which use to operate
+///num1:num1 is i32 type integer
 ///
 /// #Return
 ///
