@@ -14,8 +14,8 @@ pub use crate::quest1::generic_sort::sort;
 #[test]
 pub fn sorting_done() {
     assert_eq!(
-        sort(&mut vec![7, 4, 1, 3, 2, 9]),
-        vec![9, 2, 5, 7, 4, 8]
+      sort(&mut vec![5, 1, 7, 8, 2, 9]),
+        vec![1, 2, 5, 7, 8, 9]
     );
 }
 
