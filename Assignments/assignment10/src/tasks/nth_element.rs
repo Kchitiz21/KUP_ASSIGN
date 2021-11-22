@@ -7,9 +7,9 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// iterator: It is a List enum.
 /// 
-/// counter: It is used to iterate and change in every iteration
+/// counter: It is an i32 type variable used to iterate and change in every iteration
 ///
-/// position: It stores the value of position
+/// position: It is an i32 type variable stores the value of position
 ///
 /// #Return
 ///
