@@ -11,7 +11,7 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Return
 ///
-/// Return the i32 containing the third odd number
+/// Return the i32 containing the first repeated number.
 pub fn first_repeat(iterable:List, random: i32) ->i32 {
       match iterable {
         Nil => -1,
