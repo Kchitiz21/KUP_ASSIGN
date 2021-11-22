@@ -1,4 +1,3 @@
-use log::*;
 use crate::datastore::List;
 use crate::datastore::List::{Nil, Cons};
 
