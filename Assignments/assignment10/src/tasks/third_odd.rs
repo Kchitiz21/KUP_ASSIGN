@@ -4,13 +4,13 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Arguments
 ///
-/// iterable is an enum object which contains the list of numbers.
+/// iterable: It is an List enum.
 ///
-/// iterator used to find the odd number.
+/// iterator: It is an i32 variable.
 ///
 /// #Return
 ///
-/// Return the i32 number contains the third odd number
+/// Return i32 containing the third odd number
 
 pub fn find_odd(iterable:List,iterator:i32) ->i32 {
     match iterable {
