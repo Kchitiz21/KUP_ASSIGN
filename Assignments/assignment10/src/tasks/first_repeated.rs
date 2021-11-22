@@ -6,13 +6,13 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Arguments
 ///
-/// iterable is an enum object which contains the list of numbers.
+/// iterable: It is an list enum.
 ///
-/// random is an i32 variable containing the previous Cons in Cons tuple of List enum.
+/// random: It is an i32 variable.
 ///
 /// #Return
 ///
-///  Return the i32 number contains the third odd number
+/// Return the i32 containing the third odd number
 pub fn first_repeat(iterable:List, random: i32) ->i32 {
       match iterable {
         Nil => -1,
