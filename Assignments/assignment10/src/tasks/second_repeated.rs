@@ -8,7 +8,7 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// repeat: It is an i32 used to stores count to find the second number
 ///
-///previous: It is i32 variable containing the previous Cons in Cons tuple of List enum.
+/// previous: It is i32 variable.
 ///
 /// #Return
 ///
