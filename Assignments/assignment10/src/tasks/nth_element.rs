@@ -13,7 +13,7 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Return
 ///
-/// Return the i32 containing the third odd number
+/// Return the i32 containing the nth element
 pub fn nth(position: i32, iterator:List, counter:i32) -> i32 {
     match iterator {
         Nil => -1,
