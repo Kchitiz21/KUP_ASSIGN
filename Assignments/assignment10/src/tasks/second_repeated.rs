@@ -1,18 +1,18 @@
 use crate::datastore::List;
 use crate::datastore::List::{Nil, Cons};
-/// second function finds the second repeated.
+/// second function finds the second repeated element.
 ///
 /// #Arguments
 ///
-/// iterable is an enum object which contains the list of numbers.
+/// iterable: It is an List enum.
 ///
-/// repeat is used to stores count to find the second number
+/// repeat: It is an i32 used to stores count to find the second number
 ///
-///previous An i32 variable containing the previous Cons in Cons tuple of List enum.
+///previous: It is i32 variable containing the previous Cons in Cons tuple of List enum.
 ///
 /// #Return
 ///
-/// Return the i32 number contains the third odd number
+/// Return i32 containing the third odd number
 
 pub fn second(previous:i32, iterable:List, repeat: i32) ->i32 {
     match iterable {
