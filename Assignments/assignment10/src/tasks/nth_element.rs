@@ -5,15 +5,15 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Arguments
 ///
-/// iterable is an enum object.
+/// iterator: It is a List enum.
 /// 
-/// counter used to iterate and change in every iteration
+/// counter: It is used to iterate and change in every iteration
 ///
-/// position stores the value of position
+/// position: It stores the value of position
 ///
 /// #Return
 ///
-///  Return the i32 number contains the third odd number
+/// Return the i32 containing the third odd number
 pub fn nth(position: i32, iterator:List, counter:i32) -> i32 {
     match iterator {
         Nil => -1,
