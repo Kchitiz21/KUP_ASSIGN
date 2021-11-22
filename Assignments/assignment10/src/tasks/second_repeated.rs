@@ -12,7 +12,7 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Return
 ///
-/// Return i32 containing the third odd number
+/// Return i32 containing the second repeated element
 
 pub fn second(previous:i32, iterable:List, repeat: i32) ->i32 {
     match iterable {
