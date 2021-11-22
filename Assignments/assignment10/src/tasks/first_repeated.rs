@@ -6,7 +6,7 @@ use crate::datastore::List::{Nil, Cons};
 ///
 /// #Arguments
 ///
-/// list- A iterable of enum object which contains the list of numbers.
+/// iterable is an enum object which contains the list of numbers.
 ///
 /// random is an i32 variable containing the previous Cons in Cons tuple of List enum.
 ///
