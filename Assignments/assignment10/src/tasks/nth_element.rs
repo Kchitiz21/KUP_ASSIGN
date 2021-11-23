@@ -17,8 +17,8 @@ use crate::datastore::List::{Nil, Cons};
 pub fn nth(position: i32, iterator:List, counter:i32) -> i32 {
     match iterator {
         Nil => -1,
-        Cons(current, _re) if counter == position => current,
-        Cons(_er, iterator) => nth(position, *iterator, counter + 1),
+        Cons(present, _) if counter == position => current,
+        Cons(_, iterator) => nth(position, *iterator, counter + 1),
     }
     
 }
