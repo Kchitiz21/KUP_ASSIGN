@@ -20,7 +20,7 @@ pub async fn process1() {
     }
 }
 
-///Asynchronous Function 'process2' holds for future to complete
+/// Asynchronous Function 'process2' holds for future to complete
 ///
 /// #Arguments
 ///
