@@ -10,7 +10,7 @@ use std::time::Duration;
 ///
 /// #Return
 ///
-/// returns future with both results.
+/// there is no return type.
 pub async fn check() {
     let first_one = async {
         for initial in 0..10 {
