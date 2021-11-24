@@ -10,7 +10,7 @@ use std::time::Duration;
 ///
 /// #Return
 ///
-/// return the  future
+/// there is no return type
 pub async fn process1() {
     for i in 1..10 {
         info!("Process1 ");
@@ -28,7 +28,7 @@ pub async fn process1() {
 ///
 /// #Return
 ///
-/// return the future
+/// there is no return type
 pub async fn process2() {
     for _i in 1..10 {
         info!("process2 ");
@@ -42,7 +42,7 @@ pub async fn process2() {
 ///
 /// #Return
 ///
-/// The returned future will give both results.
+/// there is no return type
 pub async fn relate() {
     let first = process1();
     let second = process2();
