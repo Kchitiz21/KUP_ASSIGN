@@ -2,7 +2,7 @@ use async_std::task;
 use log::*;
 use std::time::Duration;
 
-/// check: It is used to async function and print two tables.
+/// Asynchronous Function 'check' prints multiplication table of 2 and 3 asynchronously
 ///
 /// #Arguments
 ///
