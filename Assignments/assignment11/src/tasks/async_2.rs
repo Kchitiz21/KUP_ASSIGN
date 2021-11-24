@@ -2,7 +2,7 @@ use async_std::task;
 use log::*;
 use std::time::Duration;
 
-/// process1: It is used to transforms a block of code using future
+/// Asynchronous Function 'process1' transforms a block of code using future
 ///
 /// #Arguments
 ///
@@ -20,7 +20,7 @@ pub async fn process1() {
     }
 }
 
-/// process2: It holds for future to complete.
+///Asynchronous Function 'process2' holds for future to complete
 ///
 /// #Arguments
 ///
@@ -34,7 +34,7 @@ pub async fn process2() {
         info!("process2 ");
     }
 }
-/// relate: It is used to async function.
+/// Asynchronous Function 'relate' is used to async function
 ///
 /// #Arguments
 ///
