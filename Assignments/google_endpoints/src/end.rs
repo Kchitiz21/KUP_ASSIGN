@@ -3,13 +3,13 @@ use log::*;
 extern crate tokio;
 ///_testing: Testing function is used to get the URL
 ///
-/// Arguments
+/// #Arguments
 ///
 /// No Arguments
 ///
 /// Return
 ///
-/// Return Result<(), reqwest::Error
+/// Return Result<(), reqwest::Error>
 
 #[tokio::main]
 pub async fn _testing() -> Result<(), reqwest::Error> {
