@@ -15,9 +15,9 @@ pub mod tests {
 pub async fn _reqwest() {
     let client = reqwest::Client::new();
     let res = client
-        .get(&format!("https://www.googleapis.com/auth/calendar"))
+        .get(&format!("https://www.googleapis.com/auth/"))
         .send()
         .await
         .unwrap();
-    assert_eq!(res.status(), reqwest::StatusCode::OK);
+    assert_eq!(res.status(), reqwest::StatusCode::NOT_FOUND);
 }
