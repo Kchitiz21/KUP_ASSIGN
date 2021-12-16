@@ -4,7 +4,7 @@ pub mod tests {
     pub async fn _reqwest() {
         let client = reqwest::Client::new();
         let res = client
-            .get(&format!("https://www.googleapis.com/auth/calendar"))
+            .get(format!("https://www.googleapis.com/auth/calendar"))
             .send()
             .await
             .unwrap();
@@ -15,7 +15,7 @@ pub mod tests {
 pub async fn _reqwest() {
     let client = reqwest::Client::new();
     let res = client
-        .get(&format!("https://www.googleapis.com/auth/"))
+        .get(format!("https://www.googleapis.com/auth/"))
         .send()
         .await
         .unwrap();
