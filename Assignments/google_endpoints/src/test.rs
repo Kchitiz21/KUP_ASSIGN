@@ -10,9 +10,9 @@ pub mod tests {
             .unwrap();
         assert_eq!(res.status(), reqwest::StatusCode::OK);
     }
-}
+
 #[tokio::test]
-pub async fn _reqwest() {
+pub async fn _rewest() {
     let client = reqwest::Client::new();
     let res = client
         .get(format!("https://www.googleapis.com/auth/"))
@@ -20,4 +20,5 @@ pub async fn _reqwest() {
         .await
         .unwrap();
     assert_eq!(res.status(), reqwest::StatusCode::NOT_FOUND);
+}
 }
