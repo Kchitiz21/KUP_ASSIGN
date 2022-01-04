@@ -51,7 +51,7 @@ pub mod tests {
     pub async fn delete_sucess() {
         assert_eq!(
             delete("src/html.txt".to_string()).await.unwrap(),
-            serde_json::to_string_pretty(&json!({"status":true})).unwrap()
+            serde_json::to_string_pretty(&json!({"status": true})).unwrap()
         );
         log::info!("Deleted Successfully");
     }
