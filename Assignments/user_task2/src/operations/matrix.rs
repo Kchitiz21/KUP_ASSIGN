@@ -8,7 +8,7 @@ use log::*;
 ///
 /// #Return
 ///
-/// No Return
+/// Returns result
 pub fn matrix(
     first_matrix: &[Vec<i32>],
     second_matrix: &[Vec<i32>],
